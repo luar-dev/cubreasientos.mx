@@ -1,0 +1,19 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+.baseStyle1, .baseStyle2, .baseStyle3 {
+    width: 33.33%;
+}
+
+.baseStyle1 {
+    order: 3;
+}
+
+.baseStyle2 {
+    order: 3;
+}
+
+.baseStyle3 {
+    order: 2;
+}
