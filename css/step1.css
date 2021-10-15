@@ -1,0 +1,139 @@
+/*
+1 Position
+2 Box model (margin, padding, size, width, height, ...)
+3 Typography
+4 Visuals
+5 Others
+*/
+
+/* Pasos de configurador */
+main {
+    width: 100%;
+}
+
+/* containers for each step */
+.step1,
+.step2,
+.step3,
+.step4,
+.step5 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* number bullet for each step */
+.step1 h3,
+.step2 h3,
+.step3 h3,
+.step4 h3,
+.step5 h3 {
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 0 15px;
+    padding: 14px;
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--cobalt-blue);
+    background-color: white;
+    border: 1px solid var(--cobalt-blue);
+    text-align: center;
+    user-select: none;
+}
+
+/* title for each step */
+.step1 h2,
+.step2 h2,
+.step3 h2,
+.step4 h2,
+.step5 h2 {
+    flex-grow: 1;
+    line-height: 45px;
+    color: var(--charcoal);
+}
+
+/* flag image for each step */
+.step1 img,
+.step2 img,
+.step3 img,
+.step4 img,
+.step5 img {
+    width: 32px;
+    height: 32px;
+    margin: auto 15px;
+}
+
+/* step 1 buttons container*/
+.step1 .step1__options {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 15px 0;
+}
+
+/* step 1 buttons */
+.step1__options .step1__options--1,
+.step1__options .step1__options--2 {
+    width: 130px;
+    height: 45px;
+    border: 2px dashed var(--charcoal);
+    background-color: white;
+    color: var(--charcoal);
+    font-size: 16px;
+    user-select: none;
+}
+
+/* step 1 buttons states */
+.step1__options .step1__options--1:hover,
+.step1__options .step1__options--2:hover,
+.step1__options .step1__options--1:focus,
+.step1__options .step1__options--2:focus {
+    border: none;
+    background-color: var(--cobalt-blue);
+    color: white;
+    cursor: pointer;
+}
+
+/* step 1 buttons pressed */
+.step1__options .step1__options--1--selected,
+.step1__options .step1__options--2--selected {
+    width: 130px;
+    height: 45px;
+    border: none;
+    background-color: var(--cobalt-blue);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapColors .wrapColors__black {
+    width: var(--color_buttons_width);
+    height: var(--color_buttons_width);
+    background-color: black;
+}
+
+.wrapColors .wrapColors__gray {
+    width: var(--color_buttons_width);
+    height: var(--color_buttons_width);
+    background-color: #b1b1b1;
+}
+
+.wrapColors .wrapColors__beige {
+    width: var(--color_buttons_width);
+    height: var(--color_buttons_width);
+    background-color: #F1CA89;
+}

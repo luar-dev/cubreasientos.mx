@@ -1,0 +1,178 @@
+/* paso 2 info box */
+.step2 .step2__info_box,
+.step3 .step3__info_box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 15px 15px 0;
+    width: 90%;
+    margin: 15px auto;
+    border: 1px solid var(--bright-navy-blue);
+    border-radius: 25px;
+    background-color: rgba( 24, 47, 70, 0.03);
+}
+
+.step2__info_box img,
+.step3__info_box img {
+    width: 16px;
+    height: 16px;
+    margin: 0 15px 15px 0;
+    align-self: flex-start;
+}
+
+.step2__info_box p,
+.step3__info_box p {
+    font-size: 12px;
+    line-height: normal;
+    align-self: flex-start;
+    margin-bottom: 15px;
+}
+
+.steps__answer2 .tip1 {
+    width: 80%;
+    font-size: 12px;
+    border-radius: 15px;
+}
+
+/* Color areas */
+
+/* color options container */
+.step2 .step2__color-areas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+/* 1 color panel container */
+.step2__color-areas .step2-areas__1-color {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.step2__color-areas .step2-areas__1-color--hidden {
+    display: none;
+}
+
+.step2-areas__1-color p {
+    width: 90%;
+    background-color: var(--bright-navy-blue);
+    color: white;
+    line-height: 25px;
+    padding-left: 15px;
+    font-size: 16px;
+}
+
+.step2-areas__1-color .step2-areas__1-color--black {
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    background-color: var(--car-cover-black);
+    margin: 10px;
+}
+
+.step2-areas__1-color .step2-areas__1-color--gray {
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    background-color: var(--car-cover-gray);
+    margin: 10px;
+}
+
+.step2-areas__1-color .step2-areas__1-color--beige {
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    background-color: var(--car-cover-beige);
+    margin: 10px;
+}
+
+
+/* .step2__color-areas .step2-areas__2-color-areas   display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+} */
+
+/* 2 colors panel container */
+.step2__color-areas .step2-areas__2-color {
+    width: 100%;
+    display: flex;
+}
+
+.step2__color-areas .step2-areas__2-color--hidden {
+    display: none;
+}
+
+/* wrap colors panel container */
+.step2-areas__2-color .step2-areas__2-color--wrap {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 15px 0;
+}
+
+.step2-areas__2-color--wrap p {
+    width: 100%;
+    line-height: 25px;
+    background-color: var(--bright-navy-blue);
+    color: white;
+    margin: 0 7px 15px 15px;
+    font-size: 16px;
+}
+
+.step2-areas__2-color--wrap .two-color__wrap--black {
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    background-color: black;
+}
+
+.step2-areas__2-color--wrap .two-color__wrap--gray {
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    background-color: gray;
+}
+
+.step2-areas__2-color--wrap .two-color__wrap--beige {
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    background-color: beige;
+}
+
+/* body colors panel container */
+.step2-areas__2-color .step2-areas__2-color--body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 15px 0;
+}
+
+.step2-areas__2-color--body p {
+    width: 100%;
+    line-height: 25px;
+    background-color: var(--bright-navy-blue);
+    color: white;
+    margin: 0 15px 15px 7px;
+    font-size: 16px;
+}
+
+.step2-areas__2-color--body .two-color__body--black {
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    background-color: black;
+}
+
+.step2-areas__2-color--body .two-color__body--gray {
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    background-color: gray;
+}
+
+.step2-areas__2-color--body .two-color__body--beige {
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    background-color: beige;
+}

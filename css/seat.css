@@ -1,0 +1,49 @@
+/* Seat */
+
+.svg__container {
+    width: 480px;
+    height: 648px;
+}
+
+/* initial paths color */
+.headrest__paths--black, .back__paths--black, .seat__paths--black {
+    fill: none;
+    stroke: var(--car-cover-black);
+    stroke-width: 1.5px;
+}
+
+.headrest__paths--white, .back__paths--white, .seat__paths--white {
+    fill: none;
+    stroke: var(--car-cover-gray);
+    stroke-width: 1px;
+}
+
+/* initial fills color */
+.headrest__fills--white, .back__fills--white, .seat__fills--white {
+    fill: white;
+}
+
+.headrest__fills--black, .back__fills--black, .seat__fills--black {
+    fill: var(--car-cover-black);
+}
+
+.headrest__fills--gray, .back__fills--gray, .seat__fills--gray {
+    fill: var(--car-cover-gray);
+}
+
+.headrest__fills--beige, .back__fills--beige, .seat__fills--beige {
+    fill: var(--car-cover-beige);
+}
+
+/* initial threads color */
+.headrest__threads, .back__threads {
+    fill: none;
+    stroke: #000000;
+    stroke-width: 1;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    stroke-miterlimit: 4;
+    stroke-dasharray: 3, 3;
+    stroke-dashoffset: 0;
+    stroke-opacity:1
+}

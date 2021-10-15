@@ -1,0 +1,9 @@
+.step5 div {
+    margin: auto;
+    background-color: rgb(180, 255, 247);
+    width: 70%;
+}
+
+.step5 [input=text] {
+    width: 30%;
+}

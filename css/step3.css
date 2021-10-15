@@ -1,0 +1,77 @@
+/* step 3 */
+
+.step3 .step3__thread-options {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.step3__thread-options h2 {
+    width: 40%;
+    margin: 0 7px 0 15px;
+    background-color: var(--bright-navy-blue);
+    padding-left: 15px;
+    color: white;
+    line-height: 25px;
+}
+
+.step3__thread-options h2:nth-child(2) {
+    margin: 0 15px 0 7px;
+}
+
+.step3__thread-options section:nth-child(3) {
+    width: 50%;
+    justify-content: space-around
+}
+
+.step3__thread-options button {
+    width: 40%;
+    height: 45px;
+    border: 2px dashed var(--charcoal);
+    background-color: white;
+    color: var(--charcoal);
+    font-size: 16px;
+    align-self: center;
+}
+
+.step3__thread-options section {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section div {
+    justify-content: center;
+    width: var(--palette-box-width_height);
+    height: var(--palette-box-width_height);
+    margin: 5px;
+}
+
+section .thread-options__colors--silver {
+    background-color: silver;
+}
+
+section .thread-options__colors--red {
+    background-color: red;
+}
+
+section .thread-options__colors--yellow {
+    background-color: rgb(255, 239, 10);
+}
+
+section .thread-options__colors--blue {
+    background-color: blue;
+}
+
+section .thread-options__colors--white {
+    background-color: white;
+    border: 1px solid black;
+}
+
+section .thread-options__colors--black {
+    background-color: black;
+}
+
+section .thread-options__colors--beige {
+    background-color: beige;
+}

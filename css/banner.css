@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.banner .banner__title {
+    font-size: 44px;
+    margin: 25px;
+    color: var(--cobalt-blue);
+}
+
+.banner .banner__subtitle {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    color: var(--charcoal);
+    margin-bottom: 25px;
+    border: 1px solid var(--bright-navy-blue);
+    border-radius: 15px;
+}
