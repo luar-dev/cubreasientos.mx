@@ -7,7 +7,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-    <script src="svg-paths.js"></script>
+    <script src="./svg-paths.js"></script>
+    <script src="./cubreasientosmx.js"></script>
 
 
     <link rel="stylesheet" href="./css/header.css">
@@ -32,10 +33,12 @@
 
 <body>
 
-    <header class="header">
-        <img src="./logo-theme-mexico.png" alt="Logotipo Cubreasientos MX">
-        <h1 class="header__logo--title">Cubreasientos MX</h1>
-    </header>
+    <div id="main">
+        <header class="header">
+            <img src="./logo-theme-mexico.png" alt="Logotipo Cubreasientos MX">
+            <h1 class="header__logo--title">{{ logoTitle }}</h1>
+        </header>
+    </div>
 
     <section class="banner">
         <p class="banner__title">Crea tu diseño.</p>
