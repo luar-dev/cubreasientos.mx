@@ -1,5 +1,5 @@
-new VueCue({
-  el: "#main",
+new Vue({
+  el: "#app",
 
   data() {
     return {
